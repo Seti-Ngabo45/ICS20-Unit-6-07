@@ -1,14 +1,14 @@
 document.getElementById('answer').addEventListener('click', multiply)
 
 function multiply() {
-  let counter = document.getElementById('counter').value;
-  const number = document.getElementById('number').value;
-  number = parseInt(number);
-  let answer = 0;
+  let counter = document.getElementById('counter').value
+  let num = document.getElementById('num').value
+  num = parseInt(num)
+  let answer = 0
   while (counter > 0) {
     counter--
-    answer = answer + x
+    answer = answer + num
   }
-  alert(answer);
+  alert(answer)
 }
-    
+  
