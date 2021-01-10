@@ -1,6 +1,6 @@
 document.getElementById('answer').addEventListener('click', multiply)
 
-function multiply() {
+function multiply () {
   let counter = document.getElementById('counter').value
   let num = document.getElementById('num').value
   num = parseInt(num)
@@ -11,4 +11,3 @@ function multiply() {
   }
   alert(answer)
 }
-  
